@@ -4,20 +4,20 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.fixs</groupId>
-    <artifactId>fixs</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <groupId>io.github.leibniz2023</groupId>
+    <artifactId>autofix</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
 
     <name>auto fixs</name>
     <description>auto fixs bug</description>
-    <url>https://github.com/auto-projects/fixs</url>
+    <url>https://github.com/leibniz2023/autofix</url>
 
     <!--开源协议...-->
     <licenses>
@@ -43,9 +43,9 @@
 
     <!--项目在github或其它托管平台的地址-->
     <scm>
-        <connection>https://github.com/auto-projects/fixs.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:auto-projects/fixs.git</developerConnection>
-        <url>https://github.com/auto-projects/fixs</url>
+        <connection>https://github.com/leibniz2023/autofix.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:leibniz2023/autofix.git</developerConnection>
+        <url>https://github.com/leibniz2023/autofix</url>
     </scm>
 
     <profiles>
